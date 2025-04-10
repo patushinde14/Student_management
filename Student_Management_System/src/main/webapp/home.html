@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Admin Home Page</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(to right, midnightblue, royalblue);
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        color: white;
+    }
+    .home-container {
+        background: darkslategray;
+        padding: 40px;
+        border-radius: 15px;
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-container h1 {
+        margin-bottom: 20px;
+        font-size: 2.2rem;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    }
+    .home-container .btn {
+        display: block;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        padding: 15px 35px;
+        margin: 15px 0;
+        font-size: 1.3rem;
+        background: linear-gradient(to right, deepskyblue, dodgerblue);
+        border-radius: 12px;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+        cursor: pointer;
+        text-align: center;
+        border: none;
+    }
+    .home-container .btn:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+        background: linear-gradient(to right, dodgerblue, deepskyblue);
+    }
+    .home-container .btn:active {
+        transform: translateY(-2px);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+</style>
+</head>
+<body>
+    <div class="home-container">
+        <h1>Admin Home Page</h1>
+
+        <form action="AddStudent.html" method="GET">
+            <button type="submit" class="btn">Add Student</button>
+        </form>
+
+        <form action="SeeAllStrudent_Controller" method="GET">
+            <button type="submit" class="btn">View Students</button>
+        </form>
+
+        <form action="SearchStudent.html" method="GET">
+            <button type="submit" class="btn">Search Student</button>
+        </form>
+    </div>
+</body>
+</html>
