@@ -37,7 +37,7 @@ A simple and powerful **Student Management System** built with **Spring Boot**, 
 
 1. **Clone the Repository**
    bash
-   git clone https://github.com/your-username/student-management-system.git
+   git clone https://github.com/patushinde14/student_management.git
    cd student-management-system
 
 2. **Configure MySQL Database**
